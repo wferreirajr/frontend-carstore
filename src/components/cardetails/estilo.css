@@ -1,0 +1,6 @@
+p {
+    text-align: justify;
+    font-size: 14px;
+    text-justify: inter-character;
+    /* line-height: 0.6em; */
+}
