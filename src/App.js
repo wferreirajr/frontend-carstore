@@ -5,6 +5,8 @@ import Footer from "./components/footer";
 import CarContent from "./components/carcontent";
 import Container from "react-bootstrap/Container";
 import CarDetails from "./components/cardetails";
+import Login from "./components/login";
+import RegistroUsuario from "./components/registrousuario";
 
 import "./App.css";
 
@@ -18,9 +20,11 @@ function App() {
 			<CarContent />
 			<h2>Carros mais buscados</h2>
 			<CarContent />
+			<Login />
 			*/ }
 
-			<CarDetails />
+			<RegistroUsuario />
+
 			<Footer />
 		</Container>
 	);
