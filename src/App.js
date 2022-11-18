@@ -15,15 +15,15 @@ function App() {
 		<Container className="App">
 			<HeaderMenu />
 
+			<Login />
 			{ /* Para apresentação da tela inicial descomente este trecho 
-			<h2>Recomendação para você</h2>}
+			<h2>Recomendação para você</h2>
 			<CarContent />
 			<h2>Carros mais buscados</h2>
 			<CarContent />
 			<Login />
-			*/ }
-
 			<RegistroUsuario />
+			*/ }			
 
 			<Footer />
 		</Container>
