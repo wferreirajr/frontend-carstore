@@ -5,8 +5,8 @@ import Navbar from "react-bootstrap/Navbar";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import { Person } from "react-bootstrap-icons";
+import InputGroup from "react-bootstrap/InputGroup";
 
-import "./estilo.css";
 // fixed="top"
 function HeaderMenu() {
 	return (
@@ -15,16 +15,12 @@ function HeaderMenu() {
 				<Navbar.Brand href="#home">Car Store</Navbar.Brand>
 				<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 				<Navbar.Collapse id="responsive-navbar-nav">
-					<Nav className="mx-auto">
-						<Form className="d-flex">
-							<Form.Control
-								type="search"
-								placeholder="Search"
-								className="mx-auto"
-								aria-label="Search"
-							/>
-						</Form>
-					</Nav>
+
+					<InputGroup size="sm">
+						<Form.Control placeholder="Pesquise pelo veiculo desejado" aria-label="Recipient's username" aria-describedby="basic-addon2" />
+						<Button variant="primary" id="button-addon2">Pesquisar</Button>
+					</InputGroup>
+
 					<Nav className="justify-content-end">
 						<Nav.Item><Nav.Link href="#comprar">Comprar</Nav.Link></Nav.Item>
 						<Nav.Item><Nav.Link href="#vender">Vender</Nav.Link></Nav.Item>
