@@ -6,6 +6,7 @@ import Col from "react-bootstrap/Col";
 import gol from "../../imagens/gol.jpeg";
 
 function CarContent() {
+
 	return (
 		<Container className="d-flex justify-content-around container-body">
 			<Row>

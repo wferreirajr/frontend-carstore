@@ -28,7 +28,7 @@ function HeaderMenu() {
 					</Nav>
 				</Navbar.Collapse>
 				<Navbar.Brand href="#entrar">
-					<Person color="white" size={26} />Entrar
+					<Person color="white" size={22} />Entrar
 				</Navbar.Brand>
 			</Container>
 		</Navbar>

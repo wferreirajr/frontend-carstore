@@ -27,7 +27,10 @@ function App() {
 			<CarSell />
 			
 			*/ }			
-			<CarSell />
+			<h2>Recomendação para você</h2>
+			<CarContent />
+			<h2>Carros mais buscados</h2>
+			<CarContent />
 			
 			<Footer />
 		</Container>
