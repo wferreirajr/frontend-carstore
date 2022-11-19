@@ -5,3 +5,11 @@
 h2 {
   text-align: left;
 }
+
+.container-body {
+  padding: 10pt;
+}
+
+.container-body-login {
+  padding: 10vmax;
+}

@@ -5,11 +5,10 @@ import Col from "react-bootstrap/Col";
 import Figure from "react-bootstrap/Figure";
 import Card from "react-bootstrap/Card";
 import ListGroup from "react-bootstrap/ListGroup";
-import "./estilo.css";
 
 function CarDetails() {
 	return (
-		<Container>
+		<Container className="container-body">
 			<h1>Detalhes</h1>
 			<Row>
 				<Col sm={8}>

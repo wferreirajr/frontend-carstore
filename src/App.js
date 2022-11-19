@@ -7,6 +7,7 @@ import Container from "react-bootstrap/Container";
 import CarDetails from "./components/cardetails";
 import Login from "./components/login";
 import RegistroUsuario from "./components/registrousuario";
+import CarSell from "./components/carsell";
 
 import "./App.css";
 
@@ -15,7 +16,7 @@ function App() {
 		<Container className="App">
 			<HeaderMenu />
 
-			<Login />
+			
 			{ /* Para apresentação da tela inicial descomente este trecho 
 			<h2>Recomendação para você</h2>
 			<CarContent />
@@ -23,8 +24,11 @@ function App() {
 			<CarContent />
 			<Login />
 			<RegistroUsuario />
+			<CarSell />
+			
 			*/ }			
-
+			<CarSell />
+			
 			<Footer />
 		</Container>
 	);

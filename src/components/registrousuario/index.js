@@ -8,7 +8,7 @@ import Col from "react-bootstrap/Col";
 
 function RegistroUsuario() {
 	return (
-		<Container>
+		<Container className="container-body-login">
 			<Row>
 				<Col sm={{ span: 6, offset: 3 }}>
 					<Form>

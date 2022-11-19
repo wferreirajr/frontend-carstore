@@ -1,5 +1,4 @@
 import React from "react";
-import "./estilo.css";
 import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -8,7 +7,7 @@ import gol from "../../imagens/gol.jpeg";
 
 function CarContent() {
 	return (
-		<Container className="d-flex justify-content-around">
+		<Container className="d-flex justify-content-around container-body">
 			<Row>
 				<Col>      
 					<Card style={{ width: "18rem" }} bg='light' text='dark'>
