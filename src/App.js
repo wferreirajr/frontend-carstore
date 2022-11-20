@@ -10,8 +10,15 @@ import RegistroUsuario from "./components/registrousuario";
 import CarSell from "./components/carsell";
 
 import "./App.css";
+import { Row } from "react-bootstrap";
 
 function App() {
+
+	const automoveis = [
+		{ id:1, marca:"Volks", modelo:"Gol", cor:"Preto", ano:"2019 - 2020", opcionais:"teste", valor:"55.000,00" },
+		{ id:1, marca:"Volks", modelo:"Gol", cor:"Preto", ano:"2019 - 2020", opcionais:"teste", valor:"55.000,00" },
+	];
+
 	return (
 		<Container className="App">
 			<HeaderMenu />
@@ -28,9 +35,23 @@ function App() {
 			
 			*/ }			
 			<h2>Recomendação para você</h2>
-			<CarContent />
+			<Container className="d-flex justify-content-around container-body">
+				<Row>
+					<CarContent id="1" marca="Volks" modelo="Gol" cor="Preto" ano="2019 - 2020" opcionais="teste" valor="55.000,00" />
+					<CarContent id="1" marca="Volks" modelo="Gol" cor="Preto" ano="2019 - 2020" opcionais="teste" valor="55.000,00" />
+					<CarContent id="1" marca="Volks" modelo="Gol" cor="Preto" ano="2019 - 2020" opcionais="teste" valor="55.000,00" />
+				</Row>
+			</Container>
+
 			<h2>Carros mais buscados</h2>
-			<CarContent />
+			<Container className="d-flex justify-content-around container-body">
+				<Row>
+					<CarContent id="1" marca="Volks" modelo="Gol" cor="Preto" ano="2019 - 2020" opcionais="teste" valor="55.000,00" />
+					<CarContent id="1" marca="Volks" modelo="Gol" cor="Preto" ano="2019 - 2020" opcionais="teste" valor="55.000,00" />
+					<CarContent id="1" marca="Volks" modelo="Gol" cor="Preto" ano="2019 - 2020" opcionais="teste" valor="55.000,00" />
+					<CarContent id="1" marca="Volks" modelo="Gol" cor="Preto" ano="2019 - 2020" opcionais="teste" valor="55.000,00" />
+				</Row>
+			</Container>
 			
 			<Footer />
 		</Container>
