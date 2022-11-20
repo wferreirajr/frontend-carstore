@@ -4,10 +4,11 @@ import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import gol from "../../imagens/gol.jpeg";
+// import gol from "../../imagens/gol.jpeg";
+// import ImagemGol from "https://stgwfj01.blob.core.windows.net/imagens/VW+Gol+GT+Concept+traseira.jpg";
 
 function CarContent(props) {
-
+	const gol = "https://stgwfj01.blob.core.windows.net/imagens/VW+Gol+GT+Concept+traseira.jpg";
 	return (
 
 		<Col>      
