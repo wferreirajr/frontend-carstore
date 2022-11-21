@@ -10,7 +10,7 @@ import InputGroup from "react-bootstrap/InputGroup";
 // fixed="top"
 function HeaderMenu() {
 	return (
-		<Navbar collapseOnSelect expand="md" bg="dark" variant="dark">
+		<Navbar collapseOnSelect expand="md" bg="dark" variant="dark" sticky="top">
 			<Container> 
 				<Navbar.Brand href="/">Car Store</Navbar.Brand>
 				<Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -24,7 +24,7 @@ function HeaderMenu() {
 					<Nav className="justify-content-end">
 						<Nav.Item><Nav.Link href="/comprar">Comprar</Nav.Link></Nav.Item>
 						<Nav.Item><Nav.Link href="/cadastro">Vender</Nav.Link></Nav.Item>
-						<Nav.Item><Nav.Link href="#servicos">Serviços</Nav.Link></Nav.Item>
+						<Nav.Item><Nav.Link href="/servicos">Serviços</Nav.Link></Nav.Item>
 					</Nav>
 				</Navbar.Collapse>
 				<Navbar.Brand href="/login">
