@@ -84,6 +84,10 @@ function CarSell() {
 								<Form.Label>Modelo</Form.Label>
 								<Form.Control />
 							</Form.Group>
+							<Form.Group as={Col} controlId="formFileMultiple">
+								<Form.Label>Selecione as Imagens</Form.Label>
+								<Form.Control type="file"/>
+							</Form.Group>
 						</Row>
 						<Row className="mb-3">
 							<Form.Group as={Col} controlId="formGridCor">
