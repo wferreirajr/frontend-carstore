@@ -4,6 +4,7 @@ import Form from "react-bootstrap/Form";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import { Router, Route, BrowserRouter, Routes } from "react-router-dom";
 
 function Login() {
 	return (
@@ -25,10 +26,10 @@ function Login() {
 
 						<Form.Group className="mb-3" controlId="formBasicCheckbox">
 							<Form.Check type="checkbox" label="Lembrar a senha" />
-							<Form.Text className="text-muted">Esqueceu a senha?</Form.Text>
+							<Form.Text className="text-muted"><a href="#">Esqueceu a senha?</a></Form.Text>
 						</Form.Group>
 						<Button variant="primary" type="submit">Entrar</Button>
-						<Form.Text className="text-muted">Não tem uma conta? Crie a sua.</Form.Text>
+						<Form.Text className="text-muted">Não tem uma conta? <a href="/registro">Crie a sua.</a></Form.Text>
 					</Form>
 				</Col>
 			</Row>

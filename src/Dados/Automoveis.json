@@ -1,0 +1,47 @@
+[
+    {
+        "id":1,
+        "marca":"Volks",
+        "modelo":"Gol",
+        "cor":"Preto",
+        "ano":"2019 - 2020",
+        "opcionais":"teste",
+        "valor":"55.000,00"
+    },
+    {
+        "id":2,
+        "marca":"Volks",
+        "modelo":"Fox",
+        "cor":"Preto",
+        "ano":"2022 - 2022",
+        "opcionais":"teste",
+        "valor":"100.000,00"
+    },    
+    {
+        "id":1,
+        "marca":"Volks",
+        "modelo":"Gol",
+        "cor":"Preto",
+        "ano":"2019 - 2020",
+        "opcionais":"teste",
+        "valor":"55.000,00"
+    },
+    {
+        "id":1,
+        "marca":"Volks",
+        "modelo":"Gol",
+        "cor":"Preto",
+        "ano":"2019 - 2020",
+        "opcionais":"teste",
+        "valor":"55.000,00"
+    },
+    {
+        "id":1,
+        "marca":"Volks",
+        "modelo":"Gol",
+        "cor":"Preto",
+        "ano":"2019 - 2020",
+        "opcionais":"teste",
+        "valor":"55.000,00"
+    }
+]
