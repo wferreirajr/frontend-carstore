@@ -10,10 +10,6 @@ import "../../App.css";
 
 function CarContent({props}) {
 	const gol = "https://stgwfj01.blob.core.windows.net/imagens/VW+Gol+GT+Concept+traseira.jpg";
-	const automoveis = [
-		{ id:1, marca:"Volks", modelo:"Gol", cor:"Preto", ano:"2019 - 2020", opcionais:"teste", valor:"55.000,00" },
-		{ id:1, marca:"Volks", modelo:"Gol", cor:"Preto", ano:"2019 - 2020", opcionais:"teste", valor:"55.000,00" },
-	];
 
 	return (
 		<Container className="App">

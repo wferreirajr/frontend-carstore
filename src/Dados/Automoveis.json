@@ -34,14 +34,5 @@
         "ano":"2019 - 2020",
         "opcionais":"teste",
         "valor":"55.000,00"
-    },
-    {
-        "id":1,
-        "marca":"Volks",
-        "modelo":"Gol",
-        "cor":"Preto",
-        "ano":"2019 - 2020",
-        "opcionais":"teste",
-        "valor":"55.000,00"
     }
 ]
