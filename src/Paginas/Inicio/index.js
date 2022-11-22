@@ -1,6 +1,6 @@
 /* eslint-disable no-mixed-spaces-and-tabs */
 /* eslint-disable react/react-in-jsx-scope */
-import { Container, Row } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import CarContent from "../../components/carcontent";
 import Automoveis from "../../Dados/Automoveis.json";
 
