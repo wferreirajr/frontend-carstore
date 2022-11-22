@@ -10,7 +10,6 @@ import CarSell from "./components/carsell";
 import RegistroUsuario from "./components/registrousuario";
 
 import "./App.css";
-import { Row } from "react-bootstrap";
 import PaginaPadrao from "./components/PaginaPadrao";
 import Inicio from "./Paginas/Inicio";
 
